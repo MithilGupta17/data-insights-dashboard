@@ -16,4 +16,20 @@ An interactive web dashboard built using **Flask**, **Pandas**, and **Matplotlib
 ---
 
 ## 📂 Folder Structure
+data-insights-dashboard/ │ ├── app.py # Main Flask application ├── uploads/ # Stores uploaded CSV files ├── static/ │ └── chart.png # Generated chart image └── templates/ └── index.html # Web frontend
+
+
+---
+
+## 📦 Requirements
+
+- Python 3.7+
+- Flask
+- Pandas
+- Matplotlib
+
+Install dependencies:
+
+```bash
+pip install flask pandas matplotlib
 
